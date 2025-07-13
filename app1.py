@@ -71,7 +71,7 @@ def plot_donut_chart(data_dict, title):
     return fig
 
 def show_risk_questionnaire():
-    st.header("📝 1. Questionário de Perfil de Risco (Suitability)")
+    st.header("1. Questionário de Perfil de Risco (Suitability)")
     with st.form("questionnaire_form"):
         score_mapping = {'A': 1, 'B': 2, 'C': 3, 'D': 4}
         questions = {
@@ -227,10 +227,10 @@ else:
         st.pyplot(fig)
         st.markdown("---")
 
-        st.header("💰 5. Projeção de Renda Passiva (Usufruto)")
+        st.header(" 5. Projeção de Renda Passiva (Usufruto)")
         st.write("Com base no patrimônio simulado, veja quanto você poderia sacar anualmente.")
         
-        with st.expander("🤔 O que é a 'Regra dos 4%'? Clique para saber mais"):
+        with st.expander(" O que é a 'Regra dos 4%'? Clique para saber mais"):
             st.markdown("""
             A **"Regra dos 4%"** é resultado de um famoso estudo sobre finanças pessoais chamado "Trinity Study".
 
