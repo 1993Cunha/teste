@@ -1,0 +1,9 @@
+streamlit==1.38.0
+streamlit-aggrid==0.3.4.post3
+streamlit-autorefresh==1.0.1
+streamlit-navigation-bar==3.3.0
+pandas==2.2.3
+numpy==1.26.2
+matplotlib==3.10.3
+matplotlib-inline==0.1.6
+Pillow==9.4.0
